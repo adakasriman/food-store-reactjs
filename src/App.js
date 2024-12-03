@@ -16,7 +16,7 @@ function App() {
         <Route element={<ProtectedRoute />}>
           <Route path="/" element={<DashBoard />} />
           <Route path="/dashboard" element={<DashBoard />} />
-          <Route path="/dashboard/:name" element={<MenuList />} />
+          <Route path="/dashboard/:id" element={<MenuList />} />
         </Route>
       </Routes>
     </div>
